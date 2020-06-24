@@ -174,8 +174,14 @@ input, select, textarea {
 		margin: 0 0 2rem 0;
 	}
 
+		p.bottomProjectParagraph {
+			padding-bottom: 1rem;
+			border-bottom: 1px solid white;
+		}
+	
+
 	h1, h2, h3, h4, h5, h6 {
-		color: white
+		color: white;
 		font-weight: 600;
 		line-height: 1.5;
 		margin: 0 0 1rem 0;
@@ -196,6 +202,11 @@ input, select, textarea {
 			width: max-content;
 			padding-bottom: 0.5rem;
 			margin: 0 0 2rem 0;
+		}
+
+		h3.projectTitle {
+			text-transform: none !important;
+			font-size: 1.25rem;
 		}
 
 	h1 {
@@ -653,7 +664,7 @@ input, select, textarea {
 			display: block;
 			height: 100%;
 			left: 0;
-			opacity: 0.5;
+			opacity: 0;
 			position: absolute;
 			top: 0;
 			width: 100%;
