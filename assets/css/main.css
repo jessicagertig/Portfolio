@@ -204,9 +204,20 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
+		div.titleLine {
+			display: flex;
+			flex-direction: row;
+			justify-content: space-between;
+		}
+
 		h3.projectTitle {
 			text-transform: none !important;
 			font-size: 1.25rem;
+			margin-bottom: 0;
+		}
+
+		div.rightLinks a{
+			margin: 0 0 0 0.7rem;
 		}
 
 	h1 {
