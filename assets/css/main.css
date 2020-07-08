@@ -210,6 +210,10 @@ input, select, textarea {
 			justify-content: space-between;
 		}
 
+		div.titleLine.resume {
+			align-items: center;
+		}
+
 		h3.projectTitle {
 			text-transform: none !important;
 			font-size: 1.25rem;
@@ -218,6 +222,12 @@ input, select, textarea {
 
 		div.rightLinks a{
 			margin: 0 0 0 0.7rem;
+		}
+
+		div.resumeLink a{
+			font-size: 0.9rem;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
 		}
 
 	h1 {
