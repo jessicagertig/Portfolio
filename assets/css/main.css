@@ -736,6 +736,10 @@ input, select, textarea {
 				width: 100%;
 			}
 
+			.image.main.profilePic img {
+				width: 40%
+			}
+
 		@media screen and (max-width: 736px) {
 
 			.image.main {
@@ -750,6 +754,11 @@ input, select, textarea {
 				margin: 1.5rem 0;
 			}
 
+		}
+
+		.introDiv div {
+			display: flex;
+			flex-direction: row;
 		}
 
 /* List */
