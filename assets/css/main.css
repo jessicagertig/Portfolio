@@ -736,14 +736,20 @@ input, select, textarea {
 				width: 100%;
 			}
 
-			.image.main.profilePic img {
-				width: 40%
+			.image.main.profilePic {
+				width: 90%;
+				margin: 0;
 			}
 
 		@media screen and (max-width: 736px) {
 
 			.image.main {
 				margin: 2rem 0;
+			}
+
+			section.about {
+				display: flex;
+				flex-direction: column;
 			}
 
 		}
@@ -756,9 +762,15 @@ input, select, textarea {
 
 		}
 
-		.introDiv div {
+		section.about {
 			display: flex;
 			flex-direction: row;
+			border: 1px solid yellow;
+		}
+
+		div.about {
+			width: 100%;
+			border: solid 1px red;
 		}
 
 /* List */
