@@ -1,4 +1,4 @@
-My web development portfolio website.  Deployed at https://jessicagcooper.netlify.app
+My web development portfolio website.  Deployed at https://jessicagcooper.com
 
 Created using Dimension by HTML5 UP
 html5up.net | @ajlkn
