@@ -179,7 +179,7 @@ input, select, textarea {
 			border-bottom: 1px solid white;
 		}
 	
-
+	
 	h1, h2, h3, h4, h5, h6 {
 		color: white;
 		font-weight: 600;
@@ -204,32 +204,39 @@ input, select, textarea {
 			margin: 0 0 2rem 0;
 		}
 
+		
 		div.titleLine {
 			display: flex;
 			flex-direction: row;
 			justify-content: space-between;
 		}
-
+		
 		div.titleLine.resume {
 			align-items: center;
 		}
-
+		
 		h3.projectTitle {
 			text-transform: none !important;
 			font-size: 1.25rem;
 			margin-bottom: 0;
 		}
-
+		
 		div.rightLinks a{
 			margin: 0 0 0 0.7rem;
 		}
-
+		
 		div.resumeLink a{
 			font-size: 0.9rem;
 			text-transform: uppercase;
 			letter-spacing: 0.2rem;
 		}
+		
+		section.projectTop {
+			display: flex
+		}
 
+
+		
 	h1 {
 		font-size: 2.25rem;
 		line-height: 1.3;
@@ -1175,6 +1182,7 @@ input, select, textarea {
 		-ms-transform: scale(1.0);
 		transform: scale(1.0);
 		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 		position: fixed;
 		top: 0;
 		left: 0;
@@ -1203,12 +1211,9 @@ input, select, textarea {
 			-ms-transition-delay: 0.75s;
 			transition-delay: 0.75s;
 			background-image: linear-gradient(to top, rgba(19, 21, 25, 0.5), rgba(19, 21, 25, 0.5)), url("../../images/overlay.png");
-			background-size: auto,
- 256px 256px;
-			background-position: center,
- center;
-			background-repeat: no-repeat,
- repeat;
+			background-size: auto, 256px 256px;
+			background-position: center, center;
+			background-repeat: no-repeat, repeat;
 			z-index: 2;
 		}
 
